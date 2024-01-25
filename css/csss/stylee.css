@@ -58,6 +58,10 @@
   width: 20px;
 }
 
+.burger-check {
+  display: none;
+}
+
 @media (max-width: 1308px) {
   .cards {
     flex-wrap: wrap;
