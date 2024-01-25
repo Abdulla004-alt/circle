@@ -95,6 +95,12 @@
   .navbar {
     display: none;
   }
+  .burger-check {
+    display: block;
+    position: absolute;
+    right: 28px;
+    opacity: 0.1;
+  }
   .chapter1 {
     text-align: center;
     font-size: 15px;
