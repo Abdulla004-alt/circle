@@ -1,0 +1,164 @@
+.container__main {
+  max-width: 1440px;
+  margin: 0 25px;
+}
+
+.buttonsee:hover {
+  color: #476ceb;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.05),
+    0px 0px 0px 3px rgba(75, 78, 252, 0.15);
+}
+
+.buttonsee-price:hover {
+  color: #476ceb;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.05),
+    0px 0px 0px 3px rgba(75, 78, 252, 0.15);
+}
+
+.buttonsee:checked {
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.05),
+    0px 0px 0px 3px rgba(75, 78, 252, 0.15);
+}
+
+.buttonsee-price:checked {
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.05),
+    0px 0px 0px 3px rgba(75, 78, 252, 0.15);
+}
+
+.buttonget:active {
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.05),
+    0px 0px 0px 3px rgba(75, 78, 252, 0.15);
+}
+
+.buttonget-price:active {
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.05),
+    0px 0px 0px 3px rgba(75, 78, 252, 0.15);
+}
+
+.pricehov:hover {
+  border: 3px solid #476ceb;
+  box-shadow: 0px 25px 50px -12px rgba(16, 24, 40, 0.25);
+}
+
+.buttonsee-price {
+  width: 100%;
+}
+
+.buttonget-price {
+  width: 100%;
+}
+
+.stats {
+  width: 265px;
+}
+
+.burger-btn {
+  display: none;
+  height: 20px;
+  width: 20px;
+}
+
+@media (max-width: 1308px) {
+  .cards {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1280px) {
+  .cards2 {
+    flex-wrap: wrap;
+  }
+  .info {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1024px) {
+  .seehow {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 350;
+  }
+  .companies {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .burger-btn {
+    display: block;
+  }
+  .navbar {
+    display: none;
+  }
+  .chapter1 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+  }
+  .chapter2 {
+    font-size: 30px;
+    font-weight: 350;
+    text-align: center;
+  }
+  .launch-text {
+    text-align: center;
+  }
+  .builder-text {
+    text-align: center;
+    font-size: 25px;
+  }
+  .about {
+    flex-wrap: wrap;
+  }
+  .build {
+    flex-wrap: wrap;
+  }
+  .pricing {
+    text-align: center;
+  }
+  .trusted-text {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 350;
+  }
+  .section-phone {
+    margin-top: 80px;
+  }
+  .section-info {
+    margin-top: 20px;
+  }
+  .section-facts {
+    margin-top: 80px;
+  }
+  .section-stars {
+    margin-top: 80px;
+  }
+  .section-start {
+    margin-top: 90px;
+  }
+  .section-price {
+    margin-top: 80px;
+  }
+  .section-compares {
+    margin-top: 50px;
+  }
+  .section-companies {
+    margin-top: 65px;
+  }
+  .section-footer {
+    margin-top: 60px;
+  }
+  .social-media {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 595px) {
+  .facts-info {
+    text-align: center;
+  }
+}
+
+@media (max-width: 320px) {
+}
