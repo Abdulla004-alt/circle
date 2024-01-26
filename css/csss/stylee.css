@@ -92,22 +92,43 @@
   .burger-btn {
     display: block;
     position: absolute;
-    right: 23px;
+    right: 25px;
   }
   .navbar {
     display: none;
-  }
-  .navbar:checked {
-    border: none;
   }
   .burger-check {
     display: block;
     position: absolute;
     right: 28px;
     opacity: 0.1;
+    z-index: 3;
   }
   .burger-check:checked ~ .navbar {
-    display: block;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* background-color: ; */
+    margin-top: 64px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .menu-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-end {
+    border: none;
+    padding: 0;
+  }
+  .buttonsee {
+    margin: 0;
   }
   .chapter1 {
     text-align: center;
