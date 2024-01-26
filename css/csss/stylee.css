@@ -95,13 +95,24 @@
     right: 25px;
   }
   .navbar {
-    display: none;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: whitesmoke;
+    margin-top: 64px;
+    width: 208px;
+    height: 272px;
+    transition: all 0.5s;
+    transform: translateX(208px);
   }
   .burger-check {
     display: block;
     position: absolute;
     right: 28px;
-    opacity: 0.1;
+    opacity: 0;
     z-index: 3;
   }
   .burger-check:checked ~ .navbar {
@@ -111,8 +122,11 @@
     position: fixed;
     top: 0;
     right: 0;
-    /* background-color: ; */
+    background-color: whitesmoke;
     margin-top: 64px;
+    width: 208px;
+    height: 272px;
+    transform: translateX(0);
   }
   .menu {
     display: flex;
