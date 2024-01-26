@@ -91,15 +91,23 @@
 @media (max-width: 768px) {
   .burger-btn {
     display: block;
+    position: absolute;
+    right: 23px;
   }
   .navbar {
     display: none;
+  }
+  .navbar:checked {
+    border: none;
   }
   .burger-check {
     display: block;
     position: absolute;
     right: 28px;
     opacity: 0.1;
+  }
+  .burger-check:checked ~ .navbar {
+    display: block;
   }
   .chapter1 {
     text-align: center;
