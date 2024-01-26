@@ -700,6 +700,10 @@ video {
   gap: 11px;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-3xl {
   border-radius: 1.5rem;
 }

@@ -44,6 +44,10 @@
   width: 100%;
 }
 
+.header-main {
+  overflow: hidden;
+}
+
 .buttonget-price {
   width: 100%;
 }
@@ -127,6 +131,7 @@
     width: 208px;
     height: 272px;
     transform: translateX(0);
+    overflow: hidden;
   }
   .menu {
     display: flex;
@@ -139,7 +144,8 @@
   }
   .menu-end {
     border: none;
-    padding: 0;
+    padding-right: 0;
+    margin-bottom: 24px;
   }
   .buttonsee {
     margin: 0;
