@@ -100,24 +100,17 @@
     flex-direction: column;
     position: absolute;
     top: 0;
-    right: -208px;
+    right: 0;
     background-color: whitesmoke;
     margin-top: 64px;
     width: 208px;
     height: 272px;
-    transition: all 0.5s;
-    transform: translateX(-208px);
-  }
-  .burger-check {
-    display: block;
-    position: absolute;
-    right: 28px;
-    opacity: 0;
-    z-index: 3;
+    /* transition: all 0.5s; */
+    /* transform: translateX(208px); */
   }
   .burger-check:checked ~ .navbar {
     display: flex;
-    justify-content: start;
+    /* justify-content: start; */
     flex-direction: column;
     position: fixed;
     top: 0;
@@ -126,8 +119,15 @@
     margin-top: 64px;
     width: 208px;
     height: 272px;
-    transform: translateX(0);
+    /* transform: translateX(0); */
     border-radius: 10px;
+  }
+  .burger-check {
+    display: block;
+    position: absolute;
+    right: 28px;
+    opacity: 0;
+    z-index: 3;
   }
   .menu {
     display: flex;
@@ -216,4 +216,7 @@
 }
 
 @media (max-width: 320px) {
+  .footer-menu {
+    flex-wrap: wrap;
+  }
 }
