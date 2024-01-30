@@ -111,11 +111,11 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 0px;
+    top: 55px;
     right: 0px;
     background-color: whitesmoke;
     width: 100%;
-    height: 272px;
+    height: 360px; /* 272px */
     transform: translateX(0);
     border-radius: 10px;
     /* transition: all 1.9s; */
@@ -133,8 +133,10 @@
     justify-content: center;
   }
   .menu-buttons {
+    padding-top: 25px;
     display: flex;
     flex-direction: column;
+    gap: 35px;
   }
   .menu-end {
     border: none;
