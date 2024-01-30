@@ -101,10 +101,9 @@
     top: 0;
     right: 0;
     background-color: whitesmoke;
-    width: 208px;
-    height: 272px;
     transform: translateY(-408px);
     transition: all 0.7s;
+    width: 100%;
   }
   .burger-check:checked ~ .navbar {
     display: flex;
